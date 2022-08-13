@@ -1,0 +1,6 @@
+1- A)  Uma pilha é uma estrutura de dados que permite o acesso apenas a um item de dado: o último item inserido. Considere a analogia de uma pilha de correspondências. Muitas pessoas ao receber uma correspondência, jogam-na em uma pilha na mesa. Depois processam a correspondência de cima para baixo. Primeiro, abrem a carta no topo e toma a devida ação. Depois examinam a próxima, até chegar no fundo da pilha. Desse modo, se quisermos acessar determinado elemento da pilha, deveremos remover todos os que estiverem sobre ele. Por este motivo, as pilhas são conhecidas como estruturas do tipo último a entrar e primeiro a sair ou LIFO (Last In First Out).
+
+B) A pilha é considerada uma estrutura de dados simples, sendo fácil de implementar. Em uma análise simples, poderia ser utilizada, por exemplo, em um carregamento de um caminhão, pois se o caminhão tiver 4 entregas, a última entrega colocada dentro do caminhão deve ser a primeira a sair, caso contrário, pode dar mais trabalho para descarregar. Um outro caso de pilha simples de se entender é o caso do entregador de pizza.
+
+C) E-E-E-E , I(1)-I(3)-I(4)-I(2).
+

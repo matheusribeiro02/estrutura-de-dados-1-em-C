@@ -1,0 +1,38 @@
+//Arquivo ListaDinEncad.h
+
+struct aluno{
+    int matricula;
+    char nome[30];
+    float n1,n2,n3;
+};
+
+typedef struct elemento* Lista;
+typedef struct elemento* pElem;
+
+Lista* cria_lista();
+void libera_lista(Lista* li);
+int insere_lista_final(Lista* li, struct aluno al);
+int insere_lista_inicio(Lista* li, struct aluno al);
+int insere_lista_ordenada(Lista* li, struct aluno al);
+int remove_lista(Lista* li, int mat);
+int remove_lista_inicio(Lista* li);
+int remove_lista_final(Lista* li);
+int tamanho_lista(Lista* li);
+int lista_vazia(Lista* li);
+int lista_cheia(Lista* li);
+void imprime_lista(Lista* li);
+int consulta_lista_mat(Lista* li, int mat, struct aluno *al);
+int consulta_lista_pos(Lista* li, int pos, struct aluno *al);
+int trocar_elementos(Lista* li, int i, int j);
+int trocar_elementos_vesao2(Lista* li, int i, int j);
+int consultaEndereco(Lista* li, int pos);
+pElem retornarEndereco1(Lista* li, int pos);
+void divideLista(Lista*li, int pos, Lista* li_1, Lista* li_2);
+int trocaDados(Lista* li, int i, int j);
+int trocaElemento(Lista* li, int i, int j);
+
+
+
+
+
+
